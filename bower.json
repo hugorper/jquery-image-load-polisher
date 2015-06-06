@@ -1,0 +1,20 @@
+{
+	"name": "jquery-image-load-polisher",
+	"version": "0.0.0",
+	"homepage": "http://hugorper.com",
+	"authors": [
+		"Hugo Pereira <hugorper@gmail.com>"
+	],
+	"description": "jQuery Image Load Polisher polish imaged load.",
+	"main": "src/jquery.image.load.polisher.js",
+	"keywords": [
+		"jquery-image-load-polisher",
+		"jquery-plugin",
+		"jquery",
+		"image",
+		"preload",
+		"load",
+		"polisher"
+	],
+	"license": "MIT"
+}

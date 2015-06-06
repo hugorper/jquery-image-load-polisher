@@ -1,0 +1,48 @@
+{
+  "name": "jquery-image-load-polisher",
+  "version": "0.0.0",
+  "description": "jQuery Image Load Polisher polish imaged load.",
+  "keywords": [
+    "jquery-image-load-polisher",
+    "jquery-plugin",
+    "jquery",
+    "image",
+    "preload",
+    "load",
+    "polisher"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugorper/jquery-image-load-polisher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hugorper/jquery-image-load-polisher/issues"
+  },
+  "author": {
+    "name": "Hugo Pereira",
+    "email": "hugorper@gmail.com",
+    "url": "https://github.com/hugorper"
+  },
+  "homepage": "http://hugorper.com",
+  "contributors": [
+    {
+      "name": "Hugo Pereira",
+      "email": "hugorper@gmail.com",
+      "url": "https://github.com/hugorper"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "readmeFilename": "README.md",
+  "_id": "jquery-image-load-polisher@0.0.0"
+}
