@@ -1,4 +1,4 @@
-# jQuery Image Load Polisher
+# jQuery Image Load Polisher [![Build Status](https://secure.travis-ci.org/hugorper/jquery-image-load-polisher.svg?branch=master)](https://travis-ci.org/hugorper/jquery-image-load-polisher))
 
 ### A way to polish image load
 
