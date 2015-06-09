@@ -11,17 +11,17 @@
     </style>
 	<script>
 		$(function() {
-			$('img').imageLoadPolisher()
+			$('img').imageLoadPolisher({image_effect: 'FADE_IN', loader_horizontal_position_percent: 50, loader_vertical_position_percent: 50})
 		});
 	</script>
 </head>
 <body>
     <ul>
-        <li> <img src="1.jpg" width="240" height="185"> </li>
-        <li> <img src="2.jpg" width="240" height="180"> </li>
-        <li> <img src="3.jpg"> </li>
-        <li> <img src="4.jpg"> </li>
-        <li> <img src="5.jpg"> </li>
+        <li> <img src="1.jpg" data-preserve-attr="preserved" width="240" height="185"> </li>
+        <li> <img src="2.jpg" data-preserve-attr="preserved" width="240" height="180"> </li>
+        <li> <img src="3.jpg" width="240" height="180"> </li>
+        <li> <img src="4.jpg"></li>
+        <li> <img src="5.jpg"></li>
     </ul>
     <div><img src="6.jpg"></div>
     </body>
