@@ -9,5 +9,6 @@
 	"onevar": true,
 	"quotmark": "double",
 	"unused": true,
-	"node": true
+	"node": true,
+	"loopfunc": true
 }
