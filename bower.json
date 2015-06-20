@@ -1,14 +1,14 @@
 {
-	"name": "jquery-image-load-polisher",
+	"name": "jquery-page-load-polisher",
 	"version": "0.0.0",
 	"homepage": "http://hugorper.com",
 	"authors": [
 		"Hugo Pereira <hugorper@gmail.com>"
 	],
-	"description": "jQuery Image Load Polisher polish imaged load.",
-	"main": "src/jquery.image.load.polisher.js",
+	"description": "jQuery Page Load Polisher polish page load.",
+	"main": "src/jquery.page.load.polisher.js",
 	"keywords": [
-		"jquery-image-load-polisher",
+		"jquery-page-load-polisher",
 		"jquery-plugin",
 		"jquery",
 		"image",

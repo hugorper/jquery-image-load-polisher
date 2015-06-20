@@ -1,9 +1,9 @@
 {
-  "name": "jquery-image-load-polisher",
+  "name": "jquery-page-load-polisher",
   "version": "0.0.0",
-  "description": "jQuery Image Load Polisher polish imaged load.",
+  "description": "jQuery Page Load Polisher polish page load.",
   "keywords": [
-    "jquery-image-load-polisher",
+    "jquery-page-load-polisher",
     "jquery-plugin",
     "jquery",
     "image",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hugorper/jquery-image-load-polisher.git"
+    "url": "https://github.com/hugorper/jquery-page-load-polisher.git"
   },
   "bugs": {
-    "url": "https://github.com/hugorper/jquery-image-load-polisher/issues"
+    "url": "https://github.com/hugorper/jquery-page-load-polisher/issues"
   },
   "author": {
     "name": "Hugo Pereira",
@@ -44,5 +44,5 @@
     "test": "grunt travis --verbose"
   },
   "readmeFilename": "README.md",
-  "_id": "jquery-image-load-polisher@0.0.0"
+  "_id": "jquery-page-load-polisher@0.0.0"
 }

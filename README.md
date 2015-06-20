@@ -1,8 +1,8 @@
-# jQuery Image Load Polisher [![Build Status](https://secure.travis-ci.org/hugorper/jquery-image-load-polisher.svg?branch=master)](https://travis-ci.org/hugorper/jquery-image-load-polisher)
+# jQuery Page Load Polisher [![Build Status](https://travis-ci.org/hugorper/jquery-page-load-polisher.svg?branch=master)](https://travis-ci.org/hugorper/jquery-page-load-polisher)
 
-### A way to polish image load
+### A way to polish page load
 
-jQuery Image Load Polisher polish imaged load, the plugin displays a loader until your images are loaded and applies an effect when images appear.
+jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear.
 
 
 ## License

@@ -23,14 +23,14 @@ module.exports = function(grunt) {
 				banner: "<%= meta.banner %>"
 			},
 			dist: {
-				src: ["src/jquery.image.load.polisher.js"],
-				dest: "dist/jquery.image.load.polisher.js"
+				src: ["src/jquery.page.load.polisher.js"],
+				dest: "dist/jquery.page.load.polisher.js"
 			}
 		},
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.image.load.polisher.js"],
+			files: ["src/jquery.page.load.polisher.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -39,8 +39,8 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.image.load.polisher.js"],
-				dest: "dist/jquery.image.load.polisher.min.js"
+				src: ["dist/jquery.page.load.polisher.js"],
+				dest: "dist/jquery.page.load.polisher.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
