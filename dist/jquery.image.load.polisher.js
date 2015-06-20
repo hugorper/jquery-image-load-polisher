@@ -20,7 +20,7 @@
 	window.load_delay_executed = false;
 
 	// Create the defaults seetings once
-	var pluginName = "imageLoadPolisher",
+	var pluginName = "pageLoadPolisher",
 			defaults = {
 				image_effect: ImageEffect.FadeIn,
 				image_appear_duration: 1300, // number that determine how long image animation will run
@@ -52,7 +52,7 @@
 			}
 		}
 	};
-	setTimeout(loadDelay, 0);
+	setTimeout(loadDelay, 20);
 
 	var terminateLoading = function() {
 		var image_item;
@@ -98,7 +98,7 @@
 		return $image.fadeOut(0).fadeIn(pluginSettings.image_appear_duration);
 	};
 
-	// The actual plugin constructor
+	// Plugin constructor
 	function Plugin ( element, options ) {
 		this.element = element;
 
