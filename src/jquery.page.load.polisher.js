@@ -1,12 +1,9 @@
-// the semi-colon before function invocation is a safety net against concatenated
-// scripts and/or other plugins which may not be closed properly.
+// the semi-colon is a safety net against concatenated scripts and/or not closed properly plugins
 ;(function ($, window, document, undefined) {
 
 	"use strict";
 
-	window.load_delay_executed = false;
-
-	// Create the defaults seetings once
+	// Create the defaults settings once
 	var pluginName = "pageLoadPolisher",
 			defaults = {
 				loader_fixed_position: true,
@@ -36,10 +33,9 @@
 				"text-align": "center",
 				"background-color": "white",
 				font: "0/0 a"
-
 			});
 
-			// with fixed size div, the loader doesnt move
+			// with fixed size div, the loader doesn't move
 			if (this.settings.loader_fixed_position === true) {
 				$loader.css({
 					width: $(window).width(),
@@ -65,8 +61,8 @@
 			$("<img>").attr("src", this.settings.loader_source).css({
 				"vertical-align": "middle",
 				display: "inline-block",
-				"max-height": "100%", /* <-- Set maximum height to 100% of its parent */
-				"max-width": "100%"   /* <-- Set maximum width to 100% of its parent */
+				"max-height": "100%",
+				"max-width": "100%"
 			}).load(function () {
 				$(this).appendTo($loader);
 			});
@@ -77,15 +73,12 @@
 				$("#page-load-container").fadeOut(this.settings.effect_duration);
 			});
 		}
-
 	});
 
-	// A really lightweight plugin wrapper around the constructor,
-	// preventing against multiple instantiations
+	// Lightweight plugin wrapper preventing against multiple instantiations
 	$.fn[pluginName] = function (options) {
 		if (!$.data(this, "plugin_" + pluginName)) {
 			$.data(this, "plugin_" + pluginName, new Plugin(this, options));
 		}
 	};
-
 })(jQuery, window, document);
