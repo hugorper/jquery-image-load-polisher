@@ -23,7 +23,7 @@
 	// Avoid Plugin.prototype conflicts
 	$.extend(Plugin.prototype, {
 		init: function () {
-			var $loader = $('<div id="page-load-container">');
+			var $loader = $("<div>").attr("id", "page-load-container");
 
 			$loader.css({
 				position: "absolute",
