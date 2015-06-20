@@ -23,16 +23,16 @@
 	// Avoid Plugin.prototype conflicts
 	$.extend(Plugin.prototype, {
 		init: function () {
-			var $loader = $("<div>").attr("id", "page-load-container");
+			var $loader = $('<div id="page-load-container">');
 
 			$loader.css({
 				position: "absolute",
-				"z-index": 2147483647,
 				top: 0,
 				left: 0,
+				"z-index": 2147483647,
 				"text-align": "center",
-				"background-color": "white",
-				font: "0/0 a"
+				font: "0/0 a",
+				"background-color": "white"
 			});
 
 			// with fixed size div, the loader doesn't move
@@ -61,16 +61,17 @@
 			$("<img>").attr("src", this.settings.loader_source).css({
 				"vertical-align": "middle",
 				display: "inline-block",
-				"max-height": "100%",
-				"max-width": "100%"
+				"max-width": "100%",
+				"max-height": "100%"
 			}).load(function () {
 				$(this).appendTo($loader);
 			});
 
 			$("body").append($loader);
 
+			var effectDuration = this.settings.effect_duration;
 			$(window).load(function () {
-				$("#page-load-container").fadeOut(this.settings.effect_duration);
+				$("#page-load-container").fadeOut(effectDuration);
 			});
 		}
 	});
