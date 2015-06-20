@@ -27,7 +27,7 @@
 	// Avoid Plugin.prototype conflicts
 	$.extend(Plugin.prototype, {
 		init: function () {
-			var $loader = $('<div id="page-load-container">');
+			var $loader = $("<div>").attr("id", "page-load-container");
 
 			$loader.css({
 				position: "absolute",
@@ -54,7 +54,7 @@
 				});
 			}
 
-			var $centered = $('<div>');
+			var $centered = $("<div>");
 			$centered.css({
 				display: "inline-block",
 				"vertical-align": "middle",
@@ -63,7 +63,7 @@
 
 			$loader.append($centered);
 
-			$('<img src="' + this.settings.loader_source + '">').css({
+			$("<img>").attr("src", this.settings.loader_source).css({
 				"vertical-align": "middle",
 				display: "inline-block",
 				"max-height": "100%", /* <-- Set maximum height to 100% of its parent */

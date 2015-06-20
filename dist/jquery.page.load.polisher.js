@@ -1,5 +1,5 @@
 /*
- *  jquery-image-load-polisher - v0.0.0
+ *  jquery-page-load-polisher - v0.0.0
  *  jQuery Image Load Polisher polish imaged load.
  *  http://hugorper.com
  *
