@@ -1,6 +1,6 @@
 {
   "name": "jquery-page-load-polisher",
-  "version": "0.0.0",
+  "version": "1.2.0",
   "description": "jQuery Page Load Polisher polish page load.",
   "keywords": [
     "jquery-page-load-polisher",
@@ -45,5 +45,5 @@
     "test": "grunt travis --verbose"
   },
   "readmeFilename": "README.md",
-  "_id": "jquery-page-load-polisher@0.0.0"
+  "_id": "jquery-page-load-polisher@1.2.0"
 }
