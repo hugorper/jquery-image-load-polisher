@@ -4,6 +4,13 @@
 
 jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear.
 
+### Plugin settings
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 #### Grunt task
 
 git-changelog
