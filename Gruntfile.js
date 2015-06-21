@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 				banner: "<%= meta.banner %>"
 			},
 			dist: {
-				src: ["src/jquery.page.load.polisher.js"],
+				src: ["src/jquery.page.load.polisher.js", "bower_components/sonic.js/src/sonic.js"],
 				dest: "dist/jquery.page.load.polisher.js"
 			}
 		},
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.page.load.polisher.js"],
+				src: ["dist/jquery.page.load.polisher.js", "bower_components/sonic.js/src/sonic.js"],
 				dest: "dist/jquery.page.load.polisher.min.js"
 			},
 			options: {

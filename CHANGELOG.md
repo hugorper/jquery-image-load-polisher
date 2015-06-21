@@ -12,6 +12,8 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 
 - fadOut timer
   ([3fc10069](https://github.com/hugorper/jquery-page-load-polisher.git/commit/3fc10069af2d567d5f2bf0564837881327962d19))
+- **demo:** change big image url
+  ([801a2c71](https://github.com/hugorper/jquery-page-load-polisher.git/commit/801a2c71d818a1d09334bdc8c8cd7185f41538cd))
 
 
 ## Features
@@ -42,6 +44,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 - **.gitignore:**
   - exclude IDE project file
   - add initial .gitignore file
+- **all:** build process and update changelog
 - **changeling:** add changelog generation
 - **demo:** add 400k image
 
@@ -53,6 +56,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - remove unwanted ')' on title
   - add link to travis
 - **all:** new changelog file
+- **main:** change demo page to support multiple config
 
 
 

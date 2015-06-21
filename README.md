@@ -4,6 +4,13 @@
 
 jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear.
 
+#### Grunt task
+
+git-changelog
+
+#### Bower
+
+bower install https://github.com/hugorper/sonic.js.git
 
 ## License
 
