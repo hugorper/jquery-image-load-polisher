@@ -25,6 +25,8 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   ([306ac2bc](https://github.com/hugorper/jquery-page-load-polisher.git/commit/306ac2bcfe1aef535ecc6cdc1f656c53f61dfac9))
   - initial empty project
   ([ec3ccf41](https://github.com/hugorper/jquery-page-load-polisher.git/commit/ec3ccf412415cfa867c60f640f66141eea4ba8c3))
+- **loader:** added background color setting
+  ([f2ac2c21](https://github.com/hugorper/jquery-page-load-polisher.git/commit/f2ac2c215a76f5eb39b35a02aca7a5b34f2c7aec))
 
 
 ## Refactor
@@ -41,6 +43,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - exclude IDE project file
   - add initial .gitignore file
 - **changeling:** add changelog generation
+- **demo:** add 400k image
 
 
 ## Documentation
@@ -49,6 +52,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 - **README.md:**
   - remove unwanted ')' on title
   - add link to travis
+- **all:** new changelog file
 
 
 
