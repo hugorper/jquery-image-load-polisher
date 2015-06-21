@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Mark Otto">
+<meta name="description" content="A set of static buttons with dynamic watch and fork counts for any repo hosted on GitHub.">
+<style>
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font:14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif}body{padding:1.5rem 1.5rem 3rem;margin:0;font-size:1rem;color:#333;background-color:#fff}h1,h2{margin-top:0;line-height:1;text-rendering:optimizeLegibility}h1{margin-bottom:.5rem;font-size:3rem}h2{margin-top:2rem;margin-bottom:1rem}h3{margin-top:2rem;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}a{color:#08c;text-decoration:none}a:hover{text-decoration:underline}.container{max-width:80%;margin-left:auto;margin-right:auto}hr{display:block;width:100%;height:2px;margin:2.5rem 0;background-color:#E3E3E3;border:0}
+</style>
+
 <title>jQuery Page Load Polisher</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script src="../src/jquery.page.load.polisher.js"></script>
-	<style type="text/css">
-		ul li {
-			display: inline-block;
+
+<script>
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 		}
-    </style>
-	<script>
+	var type = getParameterByName("type");
+
+	if (type == "default") {
+
+		// Default configuration Simple page load call
 		$(function() {
 			$('img').pageLoadPolisher()
 		});
-	</script>
+
+	}
+	else if (type == "change_back_color") {
+
+		// Default configuration Simple page load call
+		$(function() {
+			$('img').pageLoadPolisher({ "background_color": "red" })
+		});
+
+	}
+	else {
+
+		// Default configuration Simple page load call
+		$(function() {
+			$('img').pageLoadPolisher()
+		});
+
+	}
+
+</script>
 </head>
 <body>
-    <ul>
-        <li> <img src="1.jpg" data-preserve-attr="preserved" width="240" height="185"> </li>
-        <li> <img src="2.jpg" data-preserve-attr="preserved" width="240" height="180"> </li>
-        <li> <img src="3.jpg" width="240" height="180"> </li>
-        <li> <img src="4.jpg"></li>
-        <li> <img src="http://designhuntr.com/demo/jQueryPageLoadingAnimation/earth-map-huge.jpg"></li>
-    </ul>
-    <div><img src="6.jpg"></div>
-    </body>
+<div class="container">
+    <h1>jQuery Page Load Polisher</h1>
+    <p>This demo show how to use th jQuery Page Load Polisher.</p>
+    <p>Made by <a href="hugorper.com">hugorper</a>. Plugin available on <a href="https://github.com/hugorper/jquery-page-load-polisher.git">GitHub</a>.</p>
+    <hr>
+    <h2>400 k image</h2>
+    <div class="example" align="center"><img src="https://github.com/hugorper/jquery-page-load-polisher/blob/master/demo/400k.jpg" width="400" height="200"></div>
+    <hr>
+    <h2>Default configuration</h2>
+    <div class="example"><a href="index.html?type=default">Default page load</a></div>
+    <hr>
+    <h2>Change background color</h2>
+    <div class="example"><a href="index.html?type=change_back_color">Change back color</a></div>
+    <hr>
+</div>
+</body>
 </html>
