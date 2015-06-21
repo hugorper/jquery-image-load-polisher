@@ -1,5 +1,5 @@
 /*
- *  jquery-page-load-polisher - v0.0.0
+ *  jquery-page-load-polisher - v1.2.0
  *  jQuery Page Load Polisher polish page load.
  *  http://hugorper.com
  *
@@ -68,7 +68,7 @@
 
 			$loader.append($centered);
 
-			if (this.settings.sonic == "none") {
+			if (this.settings.sonic === "none") {
 				$("<img>").attr("src", this.settings.loader_source).css({
 					"vertical-align": "middle",
 					display: "inline-block",

@@ -35,6 +35,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 
 - remove unused code
 - ***:** rename to new repo name
+- **main:** move sonic to be injected
 
 
 ## Chore
@@ -45,6 +46,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - exclude IDE project file
   - add initial .gitignore file
 - **all:** build process and update changelog
+- **bower:** integrate sonic.js
 - **changeling:** add changelog generation
 - **demo:** add 400k image
 
@@ -56,6 +58,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - remove unwanted ')' on title
   - add link to travis
 - **all:** new changelog file
+- **demo:** update demo to reflect sonic injection
 - **main:** change demo page to support multiple config
 
 
