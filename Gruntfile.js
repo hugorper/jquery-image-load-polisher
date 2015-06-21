@@ -53,6 +53,22 @@ module.exports = function(grunt) {
 		watch: {
 		    files: ['src/*'],
 		    tasks: ['default']
+		},
+
+		// change log generation tool
+		git_changelog: {
+			full_changelog: {
+				options: {
+					app_name : '<%= pkg.title || pkg.name %>',
+					//logo : '',
+					intro : 'jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear',
+					file: 'CHANGELOG.md',
+					repo_url: '<%= pkg.repository.url %>',
+					grep_commits: '^fix|^feat|^docs|^refactor|^chore|BREAKING',
+					debug: true,
+					tag : false // all tags
+				}
+			}
 		}
 
 	});
@@ -61,6 +77,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-jshint");
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-watch");
+	grunt.loadNpmTasks('git-changelog');
 
 	grunt.registerTask("build", ["concat", "uglify"]);
 	grunt.registerTask("default", ["jshint", "build"]);
