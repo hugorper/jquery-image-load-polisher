@@ -6,18 +6,13 @@ jQuery Page Load Polisher polish page load, the plugin displays a loader until y
 
 ### Plugin settings
 
-First Header  | Second Header
+Option  | Description
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
-#### Grunt task
-
-git-changelog
-
-#### Bower
-
-bower install https://github.com/hugorper/sonic.js.git
+loader_fixed_position  | (default true) boolean. True if loader position is responsive
+effect_duration  | (default 1300) int. Effect duration milliseconds
+sonic  | Sonic object that replace the loader
+background_color  | (default #FFFFFF). Background color
+loader_source  | (default default data64 image). Image path of the loader image
 
 ## License
 
