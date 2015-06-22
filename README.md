@@ -4,6 +4,11 @@
 
 jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear.
 
+### Plugin demo
+
+You can find a [DEMO](https://hugorper.github.com/jquery-page-load-polisher) of jQuery Page Load Polisher in the project page.
+
+
 ### Plugin settings
 
 Option  | Description
