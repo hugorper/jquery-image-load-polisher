@@ -37,7 +37,7 @@
 		//
 		// Default configuration Simple page load
 		$(function() {
-			$.pageLoadPolisher()
+			$(document).pageLoadPolisher()
 		});
 
 	}
@@ -46,7 +46,7 @@
 		//
 		// Change background color page load
 		$(function() {
-			$.pageLoadPolisher({ "background_color": "red" })
+			$(document).pageLoadPolisher({ "background_color": "#0088cc", "loader_source": "loader64.gif" })
 		});
 
 	}
@@ -90,7 +90,7 @@
 		});
 
 		$(function() {
-			$.pageLoadPolisher({ "sonic": sonic })
+			$(document).pageLoadPolisher({ "sonic": sonic })
 		});
 	}
 	else {
@@ -98,7 +98,7 @@
 		//
 		// Default configuration Simple page load
 		$(function() {
-			$.pageLoadPolisher()
+			$(document).pageLoadPolisher()
 		});
 
 	}
@@ -111,12 +111,12 @@
     <p>Made by <a href="hugorper.com">hugorper</a>. Plugin available on <a href="https://github.com/hugorper/jquery-page-load-polisher.git">GitHub</a>.</p>
     <hr>
     <h2>400 k image</h2>
-    <div class="example" align="center"><img src="https://raw.githubusercontent.com/hugorper/jquery-page-load-polisher/blob/master/demo/400k.jpg" width="400" height="200"></div>
+    <div class="example" align="center"><img src="https://github.com/hugorper/jquery-page-load-polisher/blob/master/demo/400k.jpg?raw=true" width="400" height="200"></div>
     <hr>
     <h2>Default configuration</h2>
     <div class="example"><a href="index.html?type=default">Show default page load</a></div>
     <hr>
-    <h2>Change background color</h2>
+    <h2>Change background color and loader</h2>
     <div class="example"><a href="index.html?type=change_back_color">Show change back color</a></div>
     <hr>
     <h2>Use generated image</h2>
