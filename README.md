@@ -12,15 +12,21 @@ You can find a [DEMO](https://hugorper.github.com/jquery-page-load-polisher) on 
 
 Clone the repository:
 
+```
 git clone https://github.com/hugorper/jquery-page-load-polisher.git
+```
 
 Install the npm dependencies:
 
+```
 npm install:
+```
 
 Build, test & deploy:
 
+```
 grunt all
+```
 
 ## How to use ?
 
@@ -32,21 +38,27 @@ Include jQuery and jQuery Page Load Polisher in your HTML code:
 <script src="../dist/jquery.page.load.polisher.min.js"></script>
 ```
 
-Call the plugin and change settings
+## Call the plugin and change settings
+
+### Default configuration: simple page load
 
 ```js
-// Default configuration: simple page load
 $(function() {
 	$.pageLoadPolisher()
 });
+```
 
+### Change background color below the loader
 
-// Change background color below the loader
+```js
 $(function() {
 	$.pageLoadPolisher({ "background_color": "red" })
 });
+```
 
-// Use spinner.js as spinner
+### Use spinner.js as spinner
+
+```js
 function drawFlame(color, px, py, radius) {
 	this._.fillStyle = color;
 	this._.beginPath();
@@ -95,7 +107,7 @@ loader_fixed_position  | (default true) boolean. True if loader position is resp
 effect_duration  | (default 1300) int. Effect duration milliseconds
 sonic  | Sonic object that replace the loader
 background_color  | (default #FFFFFF). Background color
-loader_source  | (default default data64 image). Image path of the loader image
+loader_source  | (default data64 image). Image path _src_ of the loader image
 
 ## License
 
