@@ -1,5 +1,5 @@
 /*
- *  jquery-page-load-polisher - v1.2.0
+ *  jquery-page-load-polisher - v1.2.1
  *  jQuery Page Load Polisher polish page load.
  *  http://hugorper.com
  *

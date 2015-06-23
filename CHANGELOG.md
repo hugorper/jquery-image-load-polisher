@@ -14,6 +14,8 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   ([3fc10069](https://github.com/hugorper/jquery-page-load-polisher.git/commit/3fc10069af2d567d5f2bf0564837881327962d19))
 - **demo:** change big image url
   ([801a2c71](https://github.com/hugorper/jquery-page-load-polisher.git/commit/801a2c71d818a1d09334bdc8c8cd7185f41538cd))
+- **main:** fix the flash at page load
+  ([d203c405](https://github.com/hugorper/jquery-page-load-polisher.git/commit/d203c4058f3f98060e5b10a0111ecb8132f4e49d))
 
 
 ## Features
@@ -65,6 +67,7 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - remove unwanted ')' on title
   - add link to travis
 - **all:** new changelog file
+- **changelog:** new changeling reflecting changes
 - **demo:**
   - change documentation to be the same of project page
   - update the demo
