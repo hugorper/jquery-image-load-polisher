@@ -2,7 +2,7 @@
 
 ## A way to polish the loading of a page
 
-jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear.
+jQuery Page Load Polisher is a jQuery plugin that hides the loading of a page displaying a loader once the page fully displayed.
 
 It is a simple and elegant way to load pages with a lot of content.
 
