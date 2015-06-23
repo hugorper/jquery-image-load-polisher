@@ -46,15 +46,15 @@ Include jQuery and jQuery Page Load Polisher in your HTML code:
 
 ```js
 $(function() {
-	$.pageLoadPolisher()
+	$(document).pageLoadPolisher()
 });
 ```
 
-### Change background color below the loader
+### Change background color below the loader& the loader
 
 ```js
 $(function() {
-	$.pageLoadPolisher({ "background_color": "red" })
+	$(document).pageLoadPolisher({ "background_color": "#0088cc", "loader_source": "loader64.gif" })
 });
 ```
 
@@ -97,7 +97,7 @@ var sonic = new Sonic({
 });
 
 $(function() {
-	$.pageLoadPolisher({ "sonic": sonic })
+	$(document).pageLoadPolisher({ "sonic": sonic })
 });
 ```
 
