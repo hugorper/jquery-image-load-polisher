@@ -2,7 +2,7 @@ __jquery-page-load-polisher__
 
 _jQuery Page Load Polisher polish page load, the plugin displays a loader until your page load and applies an effect when page appear_
 
-#   (2015-06-21)
+#   (2015-06-23)
 
 
 
@@ -35,6 +35,9 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 
 - remove unused code
 - ***:** rename to new repo name
+- **demo:**
+  - change the 400k image url
+  - attach the plugin to the document instead of an image
 - **main:** move sonic to be injected
 
 
@@ -45,10 +48,14 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
 - **.gitignore:**
   - exclude IDE project file
   - add initial .gitignore file
-- **all:** build process and update changelog
+- **all:**
+  - full build
+  - build process and update changelog
 - **bower:** integrate sonic.js
 - **changeling:** add changelog generation
 - **demo:** add 400k image
+- **image:** remove unused images
+- **main:** update version
 
 
 ## Documentation
@@ -58,8 +65,21 @@ _jQuery Page Load Polisher polish page load, the plugin displays a loader until 
   - remove unwanted ')' on title
   - add link to travis
 - **all:** new changelog file
-- **demo:** update demo to reflect sonic injection
-- **main:** change demo page to support multiple config
+- **demo:**
+  - change documentation to be the same of project page
+  - update the demo
+  - format and comment
+  - update demo to reflect sonic injection
+- **main:**
+  - update demo
+  - change demo page to support multiple config
+- **read:**
+  - update README.md file
+  - update README.md file
+  - update README.md file
+  - add project page link
+- **readme:** update README.md formatiing
+- **rearme:** finalize README.md file
 
 
 
