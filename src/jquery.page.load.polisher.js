@@ -1,5 +1,7 @@
-// the semi-colon is a safety net against concatenated scripts and/or not closed properly plugins
-;(function ($, window, document, undefined) {
+// the semi-colon is a safety net against concatenated scripts and/or not closed properly plugins. The two first javascript code block fix the flash effect on page load
+;(setTimeout(function() {document.getElementsByTagName("html")[0].style.visibility = "visible";}, 500));
+document.getElementsByTagName("html")[0].style.visibility = "hidden";
+(function ($, window, document, undefined) {
 
 	"use strict";
 
