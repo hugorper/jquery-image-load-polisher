@@ -40,6 +40,12 @@ Build, test & deploy:
 grunt all
 ```
 
+## Install using bower
+
+```
+bower install jquery-page-load-polisher --save
+```
+
 ## How to use ?
 
 Include jQuery and jQuery Page Load Polisher in your HTML code:
