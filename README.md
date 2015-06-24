@@ -10,11 +10,11 @@ This loader doesn't contain the small glitch (during a couple of milliseconds th
 
 ### Why should you use it?
 
- - Easy to use
- - Easy to install
- - It's light
- - New functionality will be added
- - Don't need to be a jQuery ninja
+ - Easy to use!
+ - Easy to install!
+ - It's light!
+ - New functionality will be added!
+ - Don't need to be a jQuery ninja!
 
 ## Documentation, Demos & Usage
 
